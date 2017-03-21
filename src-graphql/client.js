@@ -10,6 +10,8 @@ import ProductHelpers from './product-helpers';
 import checkoutQuery from './checkout-query';
 import fetchAllPages from './fetch-all-pages';
 
+export {default as Config} from './config';
+
 function fetchAllProductResources(product, client) {
   const promises = [];
   const images = product.images;
